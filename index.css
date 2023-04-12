@@ -10,13 +10,19 @@
   margin: 0px 10px 0px 10px;
   font-family: "Climate Crisis", cursive;
 }
+
+h1 {
+  text-align: center;
+  margin: 10px 0px;
+}
 .table {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 1px solid red;
-  width: 50%;
+  border-radius: 5px;
+  width: 90%;
   margin: 10px auto;
   font-family: "Oswald", sans-serif;
 }
