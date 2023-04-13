@@ -1,0 +1,157 @@
+{
+  "temps": [
+      {
+          "nom": "présent simple",
+          "construction": "Sujet + verbe à l'infinitif + complément",
+          "adverbes": [
+              "always",
+              "usually",
+              "often"
+          ],
+          "exemples": {
+              "positif": "I drink coffee every morning.",
+              "négatif": "I don't drink coffee in the evening.",
+              "interrogatif": "Do you drink coffee?"
+          },
+          "utilisation": "Le présent simple est utilisé pour décrire une action habituelle ou répétée, une vérité générale ou une action qui est vraie au moment où elle est exprimée."
+      },
+      {
+          "nom": "Le présent continuous",
+          "construction": "Sujet + to be (au présent) + verbe en -ing + complément",
+          "adverbes": [
+              "now",
+              "at the moment",
+              "currently"
+          ],
+          "exemples": {
+              "positif": "I am currently working on a project.",
+              "négatif": "I am not currently watching TV.",
+              "interrogatif": "Are you currently working on a project?"
+          },
+          "utilisation": "Le présent progressif est utilisé pour décrire une action en cours qui se déroule au moment où elle est exprimée."
+      },
+      {
+          "nom": "Le passé composé",
+          "construction": "Sujet + have/has + participe passé du verbe + complément",
+          "adverbes": [
+              "yesterday",
+              "last week",
+              "in 1999"
+          ],
+          "exemples": {
+              "positif": "I have studied for my exam.",
+              "négatif": "I have not watched TV today.",
+              "interrogatif": "Have you studied for your exam?"
+          },
+          "utilisation": "Le présent perfect est utilisé pour décrire une action terminée à un moment précis dans le passé."
+      },
+      {
+          "nom": "Past simple",
+          "construction": "Sujet + venir (au présent) + de + verbe à l'infinitif + complément",
+          "adverbes": [
+              "just",
+              "recently",
+              "lately"
+          ],
+          "exemples": {
+              "positif": "I just finished my homework.",
+              "négatif": "I have not watched TV recently.",
+              "interrogatif": "Have you just finished your homework?"
+          },
+          "utilisation": "Le passé récent est utilisé pour décrire une action qui vient de se produire ou qui a été achevée récemment."
+      },
+      {
+          "nom": "Le futur simple",
+          "construction": "Sujet + will + verbe à l'infinitif + complément",
+          "adverbes": [
+              "tomorrow",
+              "next week",
+              "in the future"
+          ],
+          "exemples": {
+              "positif": "I will see you tomorrow.",
+              "négatif": "I will not watch TV tonight.",
+              "interrogatif": "Will you see me tomorrow"
+        },
+        "utilisation": "Le futur simple est utilisé pour décrire une action qui se produira à l'avenir."
+      },
+          {
+            "nom": "Le futur proche",
+            "construction": "Sujet + aller (au présent) + verbe à l'infinitif + complément",
+            "adverbes": [
+              "soon",
+              "in a moment",
+              "in a little while"
+            ],
+            "exemples": {
+              "positif": "I am going to see a movie soon.",
+              "négatif": "I am not going to watch TV tonight.",
+              "interrogatif": "Are you going to see a movie soon?"
+            },
+            "utilisation": "Le futur proche est utilisé pour décrire une action qui va se produire dans un futur proche."
+          },
+          {
+            "nom": "Le présent perfect",
+            "construction": "Sujet + have/has + participe passé du verbe + complément",
+            "adverbes": [
+              "ever",
+              "never",
+              "already"
+            ],
+            "exemples": {
+              "positif": "I have already eaten breakfast.",
+              "négatif": "I have not seen that movie.",
+              "interrogatif": "Have you ever been to Paris?"
+            },
+            "utilisation": "Le présent parfait est utilisé pour décrire une action qui a commencé dans le passé et qui a des répercussions sur le présent."
+          },
+          {
+            "nom": "Le passé simple",
+            "construction": "Sujet + verbe au prétérit + complément",
+            "adverbes": [
+              "yesterday",
+              "last week",
+              "in 1999"
+            ],
+            "exemples": {
+              "positif": "I studied for my exam yesterday.",
+              "négatif": "I did not watch TV last night.",
+              "interrogatif": "Did you study for your exam yesterday?"
+            },
+            "utilisation": "Le passé simple est utilisé pour décrire une action terminée dans le passé."
+          },
+          {
+            "nom": "Le passé progressif",
+            "construction": "Sujet + was/were (au prétérit) + verbe en -ing + complément",
+            "adverbes": [
+              "at this time yesterday",
+              "while",
+              "as"
+            ],
+            "exemples": {
+              "positif": "I was studying when you called.",
+              "négatif": "I was not watching TV at 5 pm yesterday.",
+              "interrogatif": "Were you studying when I called?"
+            },
+            "utilisation": "Le passé progressif est utilisé pour décrire une action en cours qui a eu lieu à un moment précis dans le passé."
+          },
+          {
+            "nom": "Le futur progressif",
+            "construction": "Sujet + will + be + verbe en -ing + complément",
+            "adverbes": [
+              "tomorrow",
+              "next week",
+              "in the future"
+            ],
+            "exemples": {
+              "positif": "I will be studying tomorrow.",
+              "négatif": "I will not be watching TV tonight.",
+              "interrogatif": "Will you be studying tomorrow?"
+            },
+            "utilisation": "Le futur progressif est utilisé pour décrire une action qui sera en cours à un moment précis dans le futur."
+          }
+        ]
+      }
+    
+      
+  
