@@ -98,18 +98,32 @@
       "nom": "PAST PERFECT SIMPLE",
       "construction": "Auxiliaire have au prétérit (had) + participe passé (ed ou 3ème colonne du tableau des verbes irréguliers) ",
       "adverbes": [
-          "for",
-          "for more than",
-          "for less than",
-          "still"
+          "When",
+          ""
+          
       ],
       "exemples": {
-          "positif": "I have been cleaning my house for two hours. (Je nettoie ma maison depuis 2 heures)",
-          "négatif": "I have not been studying for 2 years",
-          "interrogatif": "Have you been watching TV all the day?"
+          "positif": "When my mother came back, she realized that she had forgotten her hat at her office",
+          "négatif": "He saw that she hadn't cut her hair.",
+          "interrogatif": "had she jumped off the bridge when you saw her ?"
       },
-      "utilisation": "Employé pour mettre l’accent sur la durée d’une action. En général, on n’utilise pas le present perfect continuous avec les verbes suivant : like, hear, know, love, understand, want, hate, feel, see, think et believe, car ce sont des verbes d’état, de pensée et d’expression des sentiments"
+      "utilisation": "Parler d’un rapport entre un moment du passé et un moment encore plus loin dans le passé.Le past perfect s’emploie avec l’indicateur first (second, third, fourth…nth) time. Mais cet ensemble de fois doit se situer dans le passé."
   },
+  {
+    "nom": "PAST PERFECT CONTINUOUS",
+    "construction": "Auxiliaire have au prétérit (had) + been + verb-ing ",
+    "adverbes": [
+        "for"
+        
+        
+    ],
+    "exemples": {
+        "positif": "They had been waiting for 1 hour when the train arrived (ils avaient attendu pendant une heure quand le train arriva).",
+        "négatif": "we had not been waintig for more 2 hours, when the train arrived.",
+        "interrogatif": "Had you been waiting for 2 hours when the train arrived ?"
+    },
+    "utilisation": "Dire pendant combien de temps un certain évènement durait avant qu’un autre ne se produise. Mais ces deux événements se situent dans le passé."
+},
       {
           "nom": "Le futur simple",
           "construction": "Sujet + will + verbe à l'infinitif + complément",
@@ -141,52 +155,22 @@
             "utilisation": "Le futur proche est utilisé pour décrire une action qui va se produire dans un futur proche."
           },
           {
-            "nom": "Le présent perfect",
-            "construction": "Sujet + have/has + participe passé du verbe + complément",
+            "nom": "FUTURE SIMPLE",
+            "construction": "Auxiliaire will + base verbale ",
             "adverbes": [
-              "ever",
-              "never",
-              "already"
+              "next time",
+              "next week",
+              "next day"
             ],
             "exemples": {
-              "positif": "I have already eaten breakfast.",
-              "négatif": "I have not seen that movie.",
-              "interrogatif": "Have you ever been to Paris?"
+              "positif": "I will study tomorrow.",
+              "négatif": "I won't watch TV tonight.",
+              "interrogatif": "Will you go out tonight?"
             },
-            "utilisation": "Le présent parfait est utilisé pour décrire une action qui a commencé dans le passé et qui a des répercussions sur le présent."
+            "utilisation": "Exprimer un avenir, un fait futur dont on est absolument certain.Ex: I will be 24 years old next year. (J’aurais 24 ans l’an prochain) Exprimer une action que l’on décide de faire au moment où l’on parle."
           },
           {
-            "nom": "Le passé simple",
-            "construction": "Sujet + verbe au prétérit + complément",
-            "adverbes": [
-              "yesterday",
-              "last week",
-              "in 1999"
-            ],
-            "exemples": {
-              "positif": "I studied for my exam yesterday.",
-              "négatif": "I did not watch TV last night.",
-              "interrogatif": "Did you study for your exam yesterday?"
-            },
-            "utilisation": "Le passé simple est utilisé pour décrire une action terminée dans le passé."
-          },
-          {
-            "nom": "Le passé progressif",
-            "construction": "Sujet + was/were (au prétérit) + verbe en -ing + complément",
-            "adverbes": [
-              "at this time yesterday",
-              "while",
-              "as"
-            ],
-            "exemples": {
-              "positif": "I was studying when you called.",
-              "négatif": "I was not watching TV at 5 pm yesterday.",
-              "interrogatif": "Were you studying when I called?"
-            },
-            "utilisation": "Le passé progressif est utilisé pour décrire une action en cours qui a eu lieu à un moment précis dans le passé."
-          },
-          {
-            "nom": "Le futur progressif",
+            "nom": "FUTURE CONTINUOUS",
             "construction": "Sujet + will + be + verbe en -ing + complément",
             "adverbes": [
               "tomorrow",
