@@ -1,0 +1,75 @@
+{
+    "can": {
+      "definition": "used to indicate ability or possibility",
+      "examples": [
+        "I can play the guitar.",
+        "Can you come to the party tonight?",
+        "I can't swim very well."
+      ],
+      "probability": "85%"
+    },
+    "could": {
+      "definition": "used to indicate past ability or possibility, or to make a polite request",
+      "examples": [
+        "I could speak French when I was younger.",
+        "Could you pass me the salt, please?",
+        "I couldn't understand what she was saying."
+      ],
+      "probability": "80%"
+    },
+    "may": {
+      "definition": "used to ask for permission or to indicate possibility",
+      "examples": [
+        "May I use the restroom?",
+        "It may rain later today.",
+        "She may come to the party if she finishes her work."
+      ],
+      "probability": "75%"
+    },
+    "might": {
+      "definition": "used to indicate a slight possibility or to make a polite suggestion",
+      "examples": [
+        "I might go to the movies tonight.",
+        "You might want to try the seafood.",
+        "It might rain later, so bring an umbrella."
+      ],
+      "probability": "70%"
+    },
+    "shall": {
+      "definition": "used to make a suggestion or to ask for guidance",
+      "examples": [
+        "Shall we go for a walk?",
+        "What shall I do about this problem?",
+        "Shall I bring a dessert to the party?"
+      ],
+      "probability": "65%"
+    },
+    "should": {
+      "definition": "used to give advice or to indicate obligation or expectation",
+      "examples": [
+        "You should see a doctor if you're feeling sick.",
+        "I should finish my homework before watching TV.",
+        "Shouldn't you be studying for your exam?"
+      ],
+      "probability": "60%"
+    },
+    "will": {
+      "definition": "used to indicate future action or certainty",
+      "examples": [
+        "I will call you later.",
+        "She will be at the meeting tomorrow.",
+        "I won't be able to attend the party."
+      ],
+      "probability": "55%"
+    },
+    "would": {
+      "definition": "used to indicate a hypothetical or past action, or to make a polite request",
+      "examples": [
+        "If I had more time, I would visit my family.",
+        "Would you like some coffee?",
+        "I wouldn't do that if I were you."
+      ],
+      "probability": "50%"
+    }
+  }
+  

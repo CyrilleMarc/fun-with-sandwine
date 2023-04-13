@@ -1,12 +1,14 @@
 {
   "temps": [
       {
-          "nom": "présent simple",
-          "construction": "Sujet + verbe à l'infinitif + complément",
+          "nom": "PRESENT SIMPLE",
+          "construction": "Base verbale + (e) ou (es) avec she/he/it",
           "adverbes": [
               "always",
               "usually",
-              "often"
+              "often",
+              "each day",
+              "never, ever"
           ],
           "exemples": {
               "positif": "I drink coffee every morning.",
@@ -16,10 +18,11 @@
           "utilisation": "Le présent simple est utilisé pour décrire une action habituelle ou répétée, une vérité générale ou une action qui est vraie au moment où elle est exprimée."
       },
       {
-          "nom": "Le présent continuous",
-          "construction": "Sujet + to be (au présent) + verbe en -ing + complément",
+          "nom": "PRESENT CONTINUOUS",
+          "construction": "Auxiliaire be au présent + verb-ing",
           "adverbes": [
               "now",
+              "right now",
               "at the moment",
               "currently"
           ],
@@ -28,11 +31,41 @@
               "négatif": "I am not currently watching TV.",
               "interrogatif": "Are you currently working on a project?"
           },
-          "utilisation": "Le présent progressif est utilisé pour décrire une action en cours qui se déroule au moment où elle est exprimée."
+          "utilisation": "Le présent continuous est utilisé pour décrire une action en cours qui se déroule au moment où elle est exprimée."
       },
       {
-          "nom": "Le passé composé",
-          "construction": "Sujet + have/has + participe passé du verbe + complément",
+        "nom": "SIMPLE PAST",
+        "construction": "base verbale + ed / ou 2ème colonne des verbes irréguliers",
+        "adverbes": [
+            "just",
+            "recently",
+            "lately (dernièrement)"
+        ],
+        "exemples": {
+            "positif": "I just finished my homework.",
+            "négatif": "I didn't watche TV recently.",
+            "interrogatif": "Did you finish your homework?"
+        },
+        "utilisation": "Le Past simple est utilisé pour décrire une action achevée et datée."
+    },
+    {
+      "nom": "PAST CONTINUOUS",
+      "construction": "Auxiliaire be au prétérit (was/were) + verb-ing",
+      "adverbes": [
+          "Yesterday",
+          "This morning",
+          "last sunday"
+      ],
+      "exemples": {
+          "positif": "The sun was shining last sunday, when suddenly, it rained.",
+          "négatif": "Yesterday, I wasn't working when she came.",
+          "interrogatif": "Were you watching TV yesterday evening, when i called you?"
+      },
+      "utilisation": "Action qui était en train de se dérouler à moment précis du passé. Action en cours dans le passé interrompue par une autre action au prétérit"
+  },
+      {
+          "nom": "PRESENT PERFECT SIMPLE",
+          "construction": "Auxiliaire have au présent + verbe au participe passé (ed ou 3ème colonne du tableau)",
           "adverbes": [
               "yesterday",
               "last week",
@@ -40,26 +73,43 @@
           ],
           "exemples": {
               "positif": "I have studied for my exam.",
-              "négatif": "I have not watched TV today.",
+              "négatif": "I have not watched TV last week.",
               "interrogatif": "Have you studied for your exam?"
           },
-          "utilisation": "Le présent perfect est utilisé pour décrire une action terminée à un moment précis dans le passé."
+          "utilisation": "Action passée non datée ou au résultat visible. Action passée ayant valeur de bilan"
       },
       {
-          "nom": "Past simple",
-          "construction": "Sujet + venir (au présent) + de + verbe à l'infinitif + complément",
-          "adverbes": [
-              "just",
-              "recently",
-              "lately"
-          ],
-          "exemples": {
-              "positif": "I just finished my homework.",
-              "négatif": "I have not watched TV recently.",
-              "interrogatif": "Have you just finished your homework?"
-          },
-          "utilisation": "Le passé récent est utilisé pour décrire une action qui vient de se produire ou qui a été achevée récemment."
+        "nom": "PRESENT PERFECT CONTINUOUS",
+        "construction": "Auxiliaire (have/has) au présent + been + verb-ing",
+        "adverbes": [
+            "for",
+            "for more than",
+            "for less than",
+            "still"
+        ],
+        "exemples": {
+            "positif": "I have been cleaning my house for two hours. (Je nettoie ma maison depuis 2 heures)",
+            "négatif": "I have not been studying for 2 years",
+            "interrogatif": "Have you been watching TV all the day?"
+        },
+        "utilisation": "Employé pour mettre l’accent sur la durée d’une action. En général, on n’utilise pas le present perfect continuous avec les verbes suivant : like, hear, know, love, understand, want, hate, feel, see, think et believe, car ce sont des verbes d’état, de pensée et d’expression des sentiments"
+    },
+    {
+      "nom": "PAST PERFECT SIMPLE",
+      "construction": "Auxiliaire have au prétérit (had) + participe passé (ed ou 3ème colonne du tableau des verbes irréguliers) ",
+      "adverbes": [
+          "for",
+          "for more than",
+          "for less than",
+          "still"
+      ],
+      "exemples": {
+          "positif": "I have been cleaning my house for two hours. (Je nettoie ma maison depuis 2 heures)",
+          "négatif": "I have not been studying for 2 years",
+          "interrogatif": "Have you been watching TV all the day?"
       },
+      "utilisation": "Employé pour mettre l’accent sur la durée d’une action. En général, on n’utilise pas le present perfect continuous avec les verbes suivant : like, hear, know, love, understand, want, hate, feel, see, think et believe, car ce sont des verbes d’état, de pensée et d’expression des sentiments"
+  },
       {
           "nom": "Le futur simple",
           "construction": "Sujet + will + verbe à l'infinitif + complément",
