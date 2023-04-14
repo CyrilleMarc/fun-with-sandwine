@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Les temps en anglais</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oswald:wght@200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./irregVerbs.css" />
+    <script src="./irregVerbs.json"></script>
+  </head>
+  <header class="header">
+    <a href="./index.html"
+      ><button type="button" class="btn btn-info">Retour</button></a
+    >
+    <img src="./flag_uk.gif" />
+  </header>
+  <h1>Irregular verbs</h1>
+  <body>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Infinitif</th>
+          <th>Passé simple</th>
+          <th>Participe passé</th>
+          <th>Signification</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <script>
+      // Récupérer le contenu du fichier JSON
+      fetch("irregVerbs.json")
+        .then((response) => response.json())
+        .then((data) => {
+          // Parcourir la liste des verbes et créer les lignes du tableau
+          data.verbs.forEach((verb) => {
+            const row = document.createElement("tr");
+            const infinitiveCell = document.createElement("td");
+            const pastSimpleCell = document.createElement("td");
+            const pastParticipleCell = document.createElement("td");
+            const meaningCell = document.createElement("td");
+
+            infinitiveCell.innerText = verb.infinitive;
+            pastSimpleCell.innerText = verb.past_simple;
+            pastParticipleCell.innerText = verb.past_participle;
+            meaningCell.innerText = verb.meaning;
+
+            row.appendChild(infinitiveCell);
+            row.appendChild(pastSimpleCell);
+            row.appendChild(pastParticipleCell);
+            row.appendChild(meaningCell);
+
+            document.getElementById("table-body").appendChild(row);
+          });
+        })
+        .catch((error) => console.error(error));
+    </script>
+  </body>
+</html>

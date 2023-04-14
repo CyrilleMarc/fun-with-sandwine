@@ -1,0 +1,684 @@
+{
+  "bring": {
+    "particles": [
+      {
+        "name": "back",
+        "translation": "ramener, rapporter"
+      },
+      {
+        "name": "up",
+        "translation": "évoquer (un sujet), soulever"
+      },
+      {
+        "name": "out",
+        "translation": "sortir (quelque chose), révéler"
+      },
+      {
+        "name": "down",
+        "translation": "faire baisser, abaisser"
+      },
+      {
+        "name": "along",
+        "translation": "emmener, accompagner"
+      }
+    ],
+    "translation": "amener, apporter"
+  },
+  "call": {
+    "particles": [
+      {
+        "name": "off",
+        "translation": "annuler"
+      },
+      {
+        "name": "out",
+        "translation": "crier, hurler, appeler"
+      },
+      {
+        "name": "up",
+        "translation": "appeler, téléphoner"
+      },
+      {
+        "name": "for",
+        "translation": "demander, réclamer"
+      },
+      {
+        "name": "off",
+        "translation": "raccrocher (au téléphone)"
+      }
+    ],
+    "translation": "appeler, téléphoner"
+  },
+  "carry": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "effectuer, réaliser"
+      },
+      {
+        "name": "on",
+        "translation": "continuer, persévérer"
+      },
+      {
+        "name": "away",
+        "translation": "emporter, enlever"
+      },
+      {
+        "name": "off",
+        "translation": "emporter (avec soi), emmener"
+      },
+      {
+        "name": "over",
+        "translation": "remettre, transmettre"
+      }
+    ],
+    "translation": "porter, transporter"
+  },
+  "come": {
+    "particles": [
+      {
+        "name": "up",
+        "translation": "se rapprocher, arriver"
+      },
+      {
+        "name": "in",
+        "translation": "entrer"
+      },
+      {
+        "name": "off",
+        "translation": "descendre (d'un moyen de transport)"
+      },
+      {
+        "name": "out",
+        "translation": "sortir, paraître"
+      },
+      {
+        "name": "back",
+        "translation": "revenir, rentrer"
+      }
+    ],
+    "translation": "venir"
+  },
+  "cut": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "découper, supprimer"
+      },
+      {
+        "name": "off",
+        "translation": "couper (une connexion)"
+      },
+      {
+        "name": "down",
+        "translation": "réduire, diminuer"
+      },
+      {
+        "name": "back",
+        "translation": "réduire, diminuer (un montant)"
+      },
+      {
+        "name": "up",
+        "translation": "couper, tailler (un objet)"
+      }
+    ],
+    "translation": "couper"
+  },
+  "cut": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "découper, supprimer"
+      },
+      {
+        "name": "off",
+        "translation": "couper (une connexion)"
+      },
+      {
+        "name": "down",
+        "translation": "réduire, diminuer"
+      },
+      {
+        "name": "back",
+        "translation": "réduire, diminuer (un montant)"
+      },
+      {
+        "name": "up",
+        "translation": "couper, tailler (un objet)"
+      }
+    ],
+    "translation": "couper"
+  },
+  "deal": {
+    "particles": [
+      {
+        "name": "with",
+        "translation": "s'occuper de, traiter de"
+      },
+      {
+        "name": "out",
+        "translation": "distribuer, émettre"
+      },
+      {
+        "name": "in",
+        "translation": "investir dans"
+      },
+      {
+        "name": "off",
+        "translation": "céder, vendre"
+      },
+      {
+        "name": "for",
+        "translation": "chercher à obtenir"
+      }
+    ],
+    "translation": "s'occuper de, traiter"
+  },
+  "do": {
+    "particles": [
+      {
+        "name": "up",
+        "translation": "s'habiller"
+      },
+      {
+        "name": "with",
+        "translation": "manipuler"
+      },
+      {
+        "name": "away",
+        "translation": "partir"
+      },
+      {
+        "name": "over",
+        "translation": "revoir, réviser"
+      },
+      {
+        "name": "out",
+        "translation": "terminer, finir"
+      }
+    ],
+    "translation": "faire"
+  },
+  "drop": {
+    "particles": [
+      {
+        "name": "off",
+        "translation": "déposer"
+      },
+      {
+        "name": "out",
+        "translation": "abandonner, lâcher"
+      },
+      {
+        "name": "in",
+        "translation": "passer, déposer (quelqu'un)"
+      },
+      {
+        "name": "back",
+        "translation": "reculer, abandonner"
+      },
+      {
+        "name": "by",
+        "translation": "passer (chez quelqu'un)"
+      }
+    ],
+    "translation": "lâcher, abandonner"
+  },
+  "end": {
+    "particles": [
+      {
+        "name": "up",
+        "translation": "finir, terminer"
+      },
+      {
+        "name": "in",
+        "translation": "participer, prendre part"
+      },
+      {
+        "name": "off",
+        "translation": "annuler, mettre fin à"
+      },
+      {
+        "name": "up",
+        "translation": "arriver à, parvenir à"
+      },
+      {
+        "name": "with",
+        "translation": "se terminer par"
+      }
+    ],
+    "translation": "finir, terminer"
+  },
+  "fall": {
+    "particles": [
+      {
+        "name": "apart",
+        "translation": "se désintégrer, tomber en morceaux"
+      },
+      {
+        "name": "for",
+        "translation": "être attiré (par), succomber (à)"
+      },
+      {
+        "name": "off",
+        "translation": "décrocher, tomber"
+      },
+      {
+        "name": "through",
+        "translation": "tomber à travers, échouer"
+      },
+      {
+        "name": "out",
+        "translation": "perdre connaissance"
+      }
+    ],
+    "translation": "tomber"
+  },
+  "figure": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "comprendre, trouver une solution"
+      },
+      {
+        "name": "in",
+        "translation": "participer, s'impliquer"
+      },
+      {
+        "name": "on",
+        "translation": "compter sur, se fier à"
+      },
+      {
+        "name": "out",
+        "translation": "découvrir, comprendre"
+      },
+      {
+        "name": "up",
+        "translation": "estimer, calculer"
+      }
+    ],
+    "translation": "imaginer, figurer"
+  },
+  "fill": {
+    "particles": [
+      {
+        "name": "in",
+        "translation": "remplir (un formulaire, un questionnaire)"
+      },
+      {
+        "name": "out",
+        "translation": "remplir (un chèque)"
+      },
+      {
+        "name": "up",
+        "translation": "remplir (un espace vide), combler"
+      },
+      {
+        "name": "with",
+        "translation": "remplir (avec quelque chose)"
+      },
+      {
+        "name": "up",
+        "translation": "se remplir (d'un liquide)"
+      }
+    ],
+    "translation": "remplir"
+  },
+  "find": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "découvrir, trouver"
+      },
+      {
+        "name": "by",
+        "translation": "rechercher, trouver (par la recherche)"
+      },
+      {
+        "name": "out",
+        "translation": "découvrir, trouver (par hasard)"
+      },
+      {
+        "name": "out",
+        "translation": "découvrir, trouver (en enquêtant)"
+      },
+      {
+        "name": "out",
+        "translation": "découvrir, trouver (en interrogeant)"
+      }
+    ],
+    "translation": "trouver"
+  },
+  "get": {
+    "particles": [
+      {
+        "name": "away",
+        "translation": "s'échapper, partir"
+      },
+      {
+        "name": "down",
+        "translation": "noter, écrire"
+      },
+      {
+        "name": "in",
+        "translation": "s'impliquer, entrer (dans)"
+      },
+      {
+        "name": "off",
+        "translation": "démarrer (une voiture, une machine)"
+      },
+      {
+        "name": "on",
+        "translation": "s'entendre (avec), s'adapter (à)"
+      }
+    ],
+    "translation": "obtenir"
+  },
+  "give": {
+    "particles": [
+      {
+        "name": "away",
+        "translation": "donner, distribuer"
+      },
+      {
+        "name": "in",
+        "translation": "se soumettre, abandonner"
+      },
+      {
+        "name": "out",
+        "translation": "distribuer, donner"
+      },
+      {
+        "name": "up",
+        "translation": "abandonner, renoncer à"
+      },
+      {
+        "name": "back",
+        "translation": "rendre, remettre"
+      }
+    ],
+    "translation": "donner"
+  },
+  "go": {
+    "particles": [
+      {
+        "name": "along",
+        "translation": "se dérouler, avancer"
+      },
+      {
+        "name": "ahead",
+        "translation": "aller de l'avant, continuer"
+      },
+      {
+        "name": "by",
+        "translation": "passer, rendre visite à"
+      },
+      {
+        "name": "down",
+        "translation": "descendre, baisser"
+      },
+      {
+        "name": "for",
+        "translation": "chercher, aller chercher"
+      }
+    ],
+    "translation": "aller"
+  },
+  "make": {
+    "particles": [
+      {
+        "name": "up",
+        "translation": "inventer, fabriquer, constituer"
+      },
+      {
+        "name": "out",
+        "translation": "fabriquer, produire, créer"
+      },
+      {
+        "name": "for",
+        "translation": "obliger, contraindre"
+      },
+      {
+        "name": "up",
+        "translation": "maquiller, se maquiller"
+      },
+      {
+        "name": "up",
+        "translation": "rattraper, combler un retard"
+      }
+    ],
+    "translation": "faire"
+  },
+  "move": {
+    "particles": [
+      {
+        "name": "on",
+        "translation": "passer à autre chose, avancer"
+      },
+      {
+        "name": "over",
+        "translation": "déplacer, bouger"
+      },
+      {
+        "name": "out",
+        "translation": "déménager, partir"
+      },
+      {
+        "name": "in",
+        "translation": "emménager, emménager (quelque chose)"
+      },
+      {
+        "name": "away",
+        "translation": "s'éloigner, déménager"
+      }
+    ],
+    "translation": "déménager"
+  },
+  "pass": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "distribuer, faire passer"
+      },
+      {
+        "name": "away",
+        "translation": "disparaître, s'éteindre"
+      },
+      {
+        "name": "up",
+        "translation": "trouver par hasard"
+      },
+      {
+        "name": "on",
+        "translation": "transmettre, passer (à quelqu'un)"
+      },
+      {
+        "name": "by",
+        "translation": "passer chez quelqu'un"
+      }
+    ],
+    "translation": "passer"
+  },
+  "pay": {
+    "particles": [
+      {
+        "name": "off",
+        "translation": "rembourser, régler (une dette)"
+      },
+      {
+        "name": "back",
+        "translation": "rendre, rembourser"
+      },
+      {
+        "name": "for",
+        "translation": "payer pour, payer en échange de"
+      },
+      {
+        "name": "out",
+        "translation": "payer en espèces, débourser"
+      },
+      {
+        "name": "off",
+        "translation": "régler (un compte)"
+      }
+    ],
+    "translation": "payer"
+  },
+  "pick": {
+    "particles": [
+      {
+        "name": "up",
+        "translation": "ramasser, récupérer"
+      },
+      {
+        "name": "out",
+        "translation": "choisir, sélectionner"
+      },
+      {
+        "name": "on",
+        "translation": "ramasser, prendre en charge"
+      },
+      {
+        "name": "off",
+        "translation": "déposer, débarquer"
+      },
+      {
+        "name": "up",
+        "translation": "comprendre, saisir"
+      }
+    ],
+    "translation": "ramasser"
+  },
+  "tear": {
+    "particles": [
+      {
+        "name": "up",
+        "translation": "déchirer en morceaux"
+      },
+      {
+        "name": "off",
+        "translation": "arracher (une partie)"
+      },
+      {
+        "name": "out",
+        "translation": "arracher, extirper"
+      }
+    ],
+    "translation": "déchirer"
+  },
+  "think": {
+    "particles": [
+      {
+        "name": "over",
+        "translation": "réfléchir à"
+      },
+      {
+        "name": "up",
+        "translation": "penser à, imaginer"
+      },
+      {
+        "name": "through",
+        "translation": "réfléchir à (en détail)"
+      }
+    ],
+    "translation": "penser"
+  },
+  "throw": {
+    "particles": [
+      {
+        "name": "away",
+        "translation": "jeter, se débarrasser de"
+      },
+      {
+        "name": "out",
+        "translation": "dégager (quelque chose)"
+      },
+      {
+        "name": "up",
+        "translation": "lancer, projeter en l'air"
+      }
+    ],
+    "translation": "jeter"
+  },
+  "try": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "essayer, tester"
+      },
+      {
+        "name": "on",
+        "translation": "essayer (des vêtements)"
+      },
+      {
+        "name": "for",
+        "translation": "tenter de, essayer de"
+      }
+    ],
+    "translation": "essayer"
+  },
+  "turn": {
+    "particles": [
+      {
+        "name": "off",
+        "translation": "éteindre"
+      },
+      {
+        "name": "on",
+        "translation": "allumer"
+      },
+      {
+        "name": "up",
+        "translation": "augmenter, monter"
+      }
+    ],
+    "translation": "tourner"
+  },
+  "wake": {
+    "particles": [
+      {
+        "name": "up",
+        "translation": "réveiller"
+      },
+      {
+        "name": "up to",
+        "translation": "prendre conscience de"
+      }
+    ],
+    "translation": "réveiller"
+  },
+  "walk": {
+    "particles": [
+      {
+        "name": "away",
+        "translation": "partir, s'en aller"
+      },
+      {
+        "name": "out",
+        "translation": "sortir (d'un endroit)"
+      },
+      {
+        "name": "into",
+        "translation": "entrer (dans un endroit)"
+      }
+    ],
+    "translation": "marcher"
+  },
+  "work": {
+    "particles": [
+      {
+        "name": "out",
+        "translation": "résoudre, trouver une solution"
+      },
+      {
+        "name": "on",
+        "translation": "travailler sur"
+      },
+      {
+        "name": "up",
+        "translation": "s'améliorer, progresser"
+      }
+    ],
+    "translation": "travailler"
+  }
+}

@@ -29,7 +29,7 @@
   </header>
   <body>
     <h1>Modal Verbs in English</h1>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>Modal</th>
@@ -43,20 +43,17 @@
           fetch("modals.json")
             .then((response) => response.json())
             .then((data) => {
-              for (const [modal, details] of Object.entries(data)) {
+              for (const [
+                modal,
+                { definition, examples, probability },
+              ] of Object.entries(data)) {
                 const row = document.createElement("tr");
-                const modalCell = document.createElement("td");
-                modalCell.textContent = modal;
-                const definitionCell = document.createElement("td");
-                definitionCell.textContent = details.definition;
-                const examplesCell = document.createElement("td");
-                examplesCell.textContent = details.examples.join("\n");
-                const probabilityCell = document.createElement("td");
-                probabilityCell.textContent = details.probability;
-                row.appendChild(modalCell);
-                row.appendChild(definitionCell);
-                row.appendChild(examplesCell);
-                row.appendChild(probabilityCell);
+                row.innerHTML = `
+            <td>${modal}</td>
+            <td>${definition}</td>
+            <td>${examples.join("<br>")}</td>
+            <td>${probability}</td>
+          `;
                 document.querySelector("tbody").appendChild(row);
               }
             });

@@ -1,0 +1,494 @@
+{
+    "verbs": [
+      {
+        "infinitive": "be",
+        "past_simple": "was/were",
+        "past_participle": "been",
+        "meaning": "être"
+      },
+      {
+        "infinitive": "begin",
+        "past_simple": "began",
+        "past_participle": "begun",
+        "meaning": "commencer"
+      },
+      {
+        "infinitive": "break",
+        "past_simple": "broke",
+        "past_participle": "broken",
+        "meaning": "casser"
+      },
+      {
+        "infinitive": "bring",
+        "past_simple": "brought",
+        "past_participle": "brought",
+        "meaning": "apporter"
+      },
+      {
+        "infinitive": "build",
+        "past_simple": "built",
+        "past_participle": "built",
+        "meaning": "construire"
+      },
+      {
+        "infinitive": "buy",
+        "past_simple": "bought",
+        "past_participle": "bought",
+        "meaning": "acheter"
+      },
+      {
+        "infinitive": "catch",
+        "past_simple": "caught",
+        "past_participle": "caught",
+        "meaning": "attraper"
+      },
+      {
+        "infinitive": "choose",
+        "past_simple": "chose",
+        "past_participle": "chosen",
+        "meaning": "choisir"
+      },
+      {
+        "infinitive": "come",
+        "past_simple": "came",
+        "past_participle": "come",
+        "meaning": "venir"
+      },
+      {
+        "infinitive": "cost",
+        "past_simple": "cost",
+        "past_participle": "cost",
+        "meaning": "coûter"
+      },
+      {
+        "infinitive": "cut",
+        "past_simple": "cut",
+        "past_participle": "cut",
+        "meaning": "couper"
+      },
+      {
+        "infinitive": "do",
+        "past_simple": "did",
+        "past_participle": "done",
+        "meaning": "faire"
+      },
+      {
+        "infinitive": "draw",
+        "past_simple": "drew",
+        "past_participle": "drawn",
+        "meaning": "dessiner"
+      },
+      {
+        "infinitive": "drink",
+        "past_simple": "drank",
+        "past_participle": "drunk",
+        "meaning": "boire"
+      },
+      {
+        "infinitive": "drive",
+        "past_simple": "drove",
+        "past_participle": "driven",
+        "meaning": "conduire"
+      },
+      {
+        "infinitive": "eat",
+        "past_simple": "ate",
+        "past_participle": "eaten",
+        "meaning": "manger"
+      },
+      {
+        "infinitive": "fall",
+        "past_simple": "fell",
+        "past_participle": "fallen",
+        "meaning": "tomber"
+      },
+      {
+        "infinitive": "feel",
+        "past_simple": "felt",
+        "past_participle": "felt",
+        "meaning": "ressentir"
+      },
+      {
+        "infinitive": "find",
+        "past_simple": "found",
+        "past_participle": "found",
+        "meaning": "trouver"
+        },
+        {
+        "infinitive": "fly",
+        "past_simple": "flew",
+        "past_participle": "flown",
+        "meaning": "voler"
+        },
+        {
+        "infinitive": "forget",
+        "past_simple": "forgot",
+        "past_participle": "forgotten",
+        "meaning": "oublier"
+        },
+        {
+        "infinitive": "get",
+        "past_simple": "got",
+        "past_participle": "got/gotten",
+        "meaning": "obtenir"
+        },
+        {
+        "infinitive": "give",
+        "past_simple": "gave",
+        "past_participle": "given",
+        "meaning": "donner"
+        },
+        {
+        "infinitive": "go",
+        "past_simple": "went",
+        "past_participle": "gone",
+        "meaning": "aller"
+        },
+        {
+        "infinitive": "grow",
+        "past_simple": "grew",
+        "past_participle": "grown",
+        "meaning": "grandir"
+        },
+        {
+        "infinitive": "have",
+        "past_simple": "had",
+        "past_participle": "had",
+        "meaning": "avoir"
+        },
+        {
+        "infinitive": "hear",
+        "past_simple": "heard",
+        "past_participle": "heard",
+        "meaning": "entendre"
+        },
+        {
+        "infinitive": "hide",
+        "past_simple": "hid",
+        "past_participle": "hidden",
+        "meaning": "cacher"
+        },
+        {
+        "infinitive": "hit",
+        "past_simple": "hit",
+        "past_participle": "hit",
+        "meaning": "frapper"
+        },
+        {
+        "infinitive": "hold",
+        "past_simple": "held",
+        "past_participle": "held",
+        "meaning": "tenir"
+        },
+        {
+        "infinitive": "hurt",
+        "past_simple": "hurt",
+        "past_participle": "hurt",
+        "meaning": "blesser"
+        },
+        {
+        "infinitive": "keep",
+        "past_simple": "kept",
+        "past_participle": "kept",
+        "meaning": "garder"
+        },
+        {
+        "infinitive": "know",
+        "past_simple": "knew",
+        "past_participle": "known",
+        "meaning": "savoir"
+        },
+        {
+        "infinitive": "lay",
+        "past_simple": "laid",
+        "past_participle": "laid",
+        "meaning": "poser"
+        },
+        {
+        "infinitive": "lead",
+        "past_simple": "led",
+        "past_participle": "led",
+        "meaning": "mener"
+        },
+        {
+        "infinitive": "learn",
+        "past_simple": "learnt/learned",
+        "past_participle": "learnt/learned",
+        "meaning": "apprendre"
+        },
+        {
+        "infinitive": "leave",
+        "past_simple": "left",
+        "past_participle": "left",
+        "meaning": "quitter"
+        },
+        {
+            "infinitive": "let",
+  "past_simple": "let",
+  "past_participle": "let",
+  "meaning": "laisser"
+},
+{
+  "infinitive": "lie",
+  "past_simple": "lay",
+  "past_participle": "lain",
+  "meaning": "reposer"
+},
+{
+  "infinitive": "lose",
+  "past_simple": "lost",
+  "past_participle": "lost",
+  "meaning": "perdre"
+},
+{
+  "infinitive": "make",
+  "past_simple": "made",
+  "past_participle": "made",
+  "meaning": "faire"
+},
+{
+  "infinitive": "mean",
+  "past_simple": "meant",
+  "past_participle": "meant",
+  "meaning": "signifier"
+},
+{
+  "infinitive": "meet",
+  "past_simple": "met",
+  "past_participle": "met",
+  "meaning": "rencontrer"
+},
+{
+  "infinitive": "pay",
+  "past_simple": "paid",
+  "past_participle": "paid",
+  "meaning": "payer"
+},
+{
+  "infinitive": "put",
+  "past_simple": "put",
+  "past_participle": "put",
+  "meaning": "mettre"
+},
+{
+  "infinitive": "read",
+  "past_simple": "read",
+  "past_participle": "read",
+  "meaning": "lire"
+},
+{
+  "infinitive": "ride",
+  "past_simple": "rode",
+  "past_participle": "ridden",
+  "meaning": "rouler"
+},
+{
+  "infinitive": "ring",
+  "past_simple": "rang",
+  "past_participle": "rung",
+  "meaning": "sonner"
+},
+{
+  "infinitive": "rise",
+  "past_simple": "rose",
+  "past_participle": "risen",
+  "meaning": "se lever"
+},
+{
+  "infinitive": "run",
+  "past_simple": "ran",
+  "past_participle": "run",
+  "meaning": "courir"
+},
+{
+  "infinitive": "say",
+  "past_simple": "said",
+  "past_participle": "said",
+  "meaning": "dire"
+},
+{
+  "infinitive": "see",
+  "past_simple": "saw",
+  "past_participle": "seen",
+  "meaning": "voir"
+},
+{
+  "infinitive": "seek",
+  "past_simple": "sought",
+  "past_participle": "sought",
+  "meaning": "chercher"
+},
+{
+  "infinitive": "sell",
+  "past_simple": "sold",
+  "past_participle": "sold",
+  "meaning": "vendre"
+},
+{
+  "infinitive": "send",
+  "past_simple": "sent",
+  "past_participle": "sent",
+  "meaning": "envoyer"
+},
+{
+  "infinitive": "set",
+  "past_simple": "set",
+  "past_participle": "set",
+  "meaning": "fixer"
+},
+{
+  "infinitive": "shake",
+  "past_simple": "shook",
+  "past_participle": "shaken",
+  "meaning": "secouer"
+},
+{
+  "infinitive": "shine",
+  "past_simple": "shone",
+  "past_participle": "shone",
+  "meaning": "briller"
+},
+{
+  "infinitive": "shoot",
+  "past_simple": "shot",
+  "past_participle": "shot",
+  "meaning": "tirer"
+},
+{
+  "infinitive": "show",
+  "past_simple": "showed",
+  "past_participle": "shown",
+  "meaning": "montrer"
+},
+{
+  "infinitive": "shut",
+  "past_simple": "shut",
+  "past_participle": "shut",
+  "meaning": "fermer"
+},
+{
+  "infinitive": "sing",
+  "past_simple": "sang",
+  "past_participle": "sung",
+  "meaning": "chanter"
+},
+{
+  "infinitive": "sink",
+  "past_simple": "sank",
+  "past_participle": "sunk",
+  "meaning": "couler"
+},
+{
+  "infinitive": "sit",
+  "past_simple": "sat",
+  "past_participle": "sat",
+  "meaning": "s'asseoir"
+},
+{
+  "infinitive": "sleep",
+  "past_simple": "slept",
+  "past_participle": "slept",
+  "meaning": "dormir"
+},
+{
+  "infinitive": "speak",
+  "past_simple": "spoke",
+  "past_participle": "spoken",
+  "meaning": "parler"
+},
+{
+  "infinitive": "spend",
+  "past_simple": "spent",
+  "past_participle": "spent",
+  "meaning": "dépenser"
+},
+{
+  "infinitive": "stand",
+  "past_simple": "stood",
+  "past_participle": "stood",
+  "meaning": "se tenir debout"
+},
+{
+  "infinitive": "steal",
+  "past_simple": "stole",
+  "past_participle": "stolen",
+  "meaning": "voler"
+},
+{
+  "infinitive": "swim",
+  "past_simple": "swam",
+  "past_participle": "swum",
+  "meaning": "nager"
+},
+{
+  "infinitive": "take",
+  "past_simple": "took",
+  "past_participle": "taken",
+  "meaning": "prendre"
+},
+{
+  "infinitive": "teach",
+  "past_simple": "taught",
+  "past_participle": "taught",
+  "meaning": "enseigner"
+},
+{
+  "infinitive": "tear",
+  "past_simple": "tore",
+  "past_participle": "torn",
+  "meaning": "déchirer"
+},
+{
+  "infinitive": "tell",
+  "past_simple": "told",
+  "past_participle": "told",
+  "meaning": "dire"
+},
+{
+  "infinitive": "think",
+  "past_simple": "thought",
+  "past_participle": "thought",
+  "meaning": "penser"
+},
+{
+    "infinitive": "throw",
+    "past_simple": "threw",
+    "past_participle": "thrown",
+    "meaning": "jeter"
+  },
+  {
+    "infinitive": "understand",
+    "past_simple": "understood",
+    "past_participle": "understood",
+    "meaning": "comprendre"
+  },
+  {
+    "infinitive": "wake",
+    "past_simple": "woke",
+    "past_participle": "woken",
+    "meaning": "réveiller"
+  },
+  {
+    "infinitive": "wear",
+    "past_simple": "wore",
+    "past_participle": "worn",
+    "meaning": "porter (vêtement)"
+  },
+  {
+    "infinitive": "win",
+    "past_simple": "won",
+    "past_participle": "won",
+    "meaning": "gagner"
+  },
+  {
+    "infinitive": "write",
+    "past_simple": "wrote",
+    "past_participle": "written",
+    "meaning": "écrire"
+  }
+]
+}
+  
+
+     
+  

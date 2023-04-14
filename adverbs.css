@@ -15,7 +15,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-table {
+.table {
   border-collapse: collapse;
   margin: 20px;
 }
