@@ -17,33 +17,41 @@
       crossorigin="anonymous"
     ></script>
     <style>
-      .news-container {
-        font-family: "Oswald", sans-serif;
-          display: grid;
-          gap: 1rem;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      }
       h1{
         text-align: center;
         font-family: "Oswald", sans-serif;
         padding: 40px;
         Font-size: 60px;
+        color: #007bff;
       }
+      /* Style de base pour la liste des actualités */
+#newsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 10%;
+}
 
-      .news-card {
-          padding: 1rem;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          background-color: #f8f8f8;
-      }
+/* Style pour chaque élément de la liste des actualités */
+#newsList li {
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+}
 
-      .news-card h3 {
-          margin-top: 0;
-      }
+/* Style pour les liens des actualités */
+#newsList li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  Font-size: 24px;
+  color: #007bff;
+}
 
-      .news-card p {
-          margin-bottom: 0;
-      }
+/* Style pour les liens des actualités au survol de la souris */
+#newsList li a:hover {
+  color: #007bff;
+}
   </style>
   </head>
   <header>
@@ -77,8 +85,51 @@
     </nav>
   </header>
   <body>
-    <h1>NEws from the English world</h1>
+    <h1>News from the English world</h1>
     <div id="newsList"></div>
+    <script>
+      // Fonction pour récupérer les actualités de la BBC
+      function getNews() {
+          // URL du flux RSS de la BBC
+          var rss2jsonUrl = 'https://api.rss2json.com/v1/api.json?rss_url=http://feeds.bbci.co.uk/news/rss.xml';
+
+          // Effectuer une requête GET pour récupérer les données JSON du flux RSS
+          fetch(rss2jsonUrl)
+              .then(function (response) {
+                  return response.json();
+              })
+              .then(function (data) {
+                  // Parcourir les articles du flux RSS
+                  data.items.forEach(function (item) {
+                      // Créer un élément de liste pour chaque article
+                      var li = document.createElement('li');
+
+                      // Créer un lien pour le titre de l'article
+                      var titleLink = document.createElement('a');
+                      titleLink.textContent =item.title;
+                      titleLink.href = item.link;
+                      titleLink.target = '_blank';
+
+                      // Créer un paragraphe pour la description de l'article
+                      var description = document.createElement('p');
+                      description.textContent = item.description;
+
+                      // Ajouter le titre et la description à l'élément de liste
+                      li.appendChild(titleLink);
+                      li.appendChild(description);
+
+                      // Ajouter l'élément de liste à la liste des actualités
+                      document.getElementById('newsList').appendChild(li);
+                  });
+              })
+              .catch(function (error) {
+                  console.error('Erreur de récupération des nouvelles:', error);
+              });
+      }
+
+      // Appeler la fonction pour récupérer les actualités
+      getNews();
+  </script>
 
     <script>
       // URL du service rss2json.com
