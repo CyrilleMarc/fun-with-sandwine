@@ -78,41 +78,8 @@
   </header>
   <body>
     <h1>News de la BBC</h1>
-    <div id="news-container"></div>
+    <div id="newList"></div>
 
-    <!-- <script>
-      // Fait une requête à l'API de la BBC pour récupérer les nouvelles
-      fetch(
-        "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=6e3d5f6686c549eeeccdf13d5c009b15"
-      )
-        .then((response) => response.json())
-        .then((data) => {
-          // Vérifie si la requête a réussi
-          if (data.status === "ok") {
-            // Parcourt les articles et les affiche dans le conteneur des nouvelles
-            const articles = data.articles;
-            const newsContainer = document.getElementById("news-container");
-
-            articles.forEach((article) => {
-              const articleElement = document.createElement("div");
-              articleElement.innerHTML = `
-                <h2>${article.title}</h2>
-                <p>${article.description}</p>
-                <img src="${article.urlToImage}" alt="${article.title}" />
-                <p><a href="${article.url}" target="_blank">Lire la suite</a></p>
-              `;
-              newsContainer.appendChild(articleElement);
-            });
-          } else {
-            // Affiche un message d'erreur si la requête a échoué
-            console.error("Erreur de récupération des nouvelles:", data.message);
-          }
-        })
-        .catch((error) => {
-          // Affiche un message d'erreur si une erreur s'est produite
-          console.error("Erreur de récupération des nouvelles:", error);
-        });
-    </script> -->
     <script>
       // URL du service rss2json.com
       var rss2jsonUrl = "https://api.rss2json.com/v1/api.json?rss_url=http://rss.cnn.com/rss/edition.rss";
@@ -128,6 +95,7 @@
             var items = data.items;
   
             // Parcourir les nouvelles et les afficher dans la liste
+            var newsListElement = document.getElementById("newsList");
             for (var i = 0; i < Math.min(items.length, maxNews); i++) {
               var item = items[i];
               var title = item.title;
@@ -138,7 +106,7 @@
               linkElement.href = link;
               linkElement.textContent = title;
               listItem.appendChild(linkElement);
-              document.getElementById("newsList").appendChild(listItem);
+              newsListElement.appendChild(listItem);
             }
           })
           .catch(error => {
