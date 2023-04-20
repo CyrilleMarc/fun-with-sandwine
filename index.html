@@ -17,13 +17,22 @@
       crossorigin="anonymous"
     ></script>
     <style>
-      h1{
-        text-align: center;
+
+.drapeau-anglais {
+  background-color: #3C3B6E; /* Bleu foncé */
+  background-image: linear-gradient(#3C3B6E, #FFFFFF, #CE1126); /* Dégradé bleu foncé, blanc, rouge */
+  color: #FFFFFF; /* Texte en blanc */
+  padding: 20px; /* Espacement interne pour le titre */
+}
+
+/* Style du titre h1 */
+.drapeau-anglais h1 {
+  margin: 0; /* Suppression des marges par défaut */
+  text-align: center;
         font-family: "Oswald", sans-serif;
         padding: 40px;
         Font-size: 60px;
-        color: #007bff;
-      }
+}
       /* Style de base pour la liste des actualités */
 #newsList {
   list-style-type: none;
@@ -38,6 +47,13 @@
   font-family: "Oswald", sans-serif;
 }
 
+#newsList li::before {
+  content: "-"; /* Contenu de l'astérisque */
+  position: absolute; /* Positionnement absolu par rapport à l'élément de liste parent */
+  left: 0; /* Positionnement à gauche par rapport à l'élément de liste parent */
+  color: red;
+}
+
 /* Style pour les liens des actualités */
 #newsList li a {
   color: #000;
@@ -50,14 +66,27 @@
 
 /* Style pour les liens des actualités au survol de la souris */
 #newsList li a:hover {
-  color: #007bff;
+  color: red;
+}
+
+.hymn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hymn span{
+  margin: 0 10px;
 }
   </style>
   </head>
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Fun with Sandwine</a>
+        <div class="hymn">
+        <strong><span>Fun with Sandwine</span></strong>
+        <span><a href="#" onclick="toogleHymn();"><img src="./flag_uk.gif" /></a></span>
+        <audio id="hymnAudio" src="hymne-anglais.mp3"></audio>
+      </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -85,8 +114,21 @@
     </nav>
   </header>
   <body>
-    <h1>News from the English world</h1>
+    <div class="drapeau-anglais">
+    <h1>Breaking news from the English-speaking world !</h1>
+  </div>
     <div id="newsList"></div>
+    <script>
+      // Fonction pour lancer la lecture de l'hymne
+      function toogleHymn() {
+        var hymnAudio = document.getElementById("hymnAudio");
+        if(hymnAudio.paused) {
+          hymnAudio.play();
+        } else {
+          hymnAudio.pause();
+      }
+    }
+    </script>
     <script>
       // Fonction pour récupérer les actualités de la BBC
       function getNews() {
