@@ -424,6 +424,31 @@
     ],
     "translation": "aller"
   },
+  "look": {
+    "particles": [
+      {
+        "name": "after",
+        "translation": "s'occuper, prendre soin"
+      },
+      {
+        "name": "for",
+        "translation": "chercher"
+      },
+      {
+        "name": "forward",
+        "translation": "avoir hâte"
+      },
+      {
+        "name": "up",
+        "translation": "lever les yeux "
+      },
+      {
+        "name": "over (something)",
+        "translation": "examiner, examiner attentivement, parcourir"
+      }
+    ],
+    "translation": "regarder"
+  },
   "make": {
     "particles": [
       {

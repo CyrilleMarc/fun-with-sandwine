@@ -16,6 +16,35 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .news-container {
+        font-family: "Oswald", sans-serif;
+          display: grid;
+          gap: 1rem;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+      h1{
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        padding: 40px;
+        Font-size: 60px;
+      }
+
+      .news-card {
+          padding: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          background-color: #f8f8f8;
+      }
+
+      .news-card h3 {
+          margin-top: 0;
+      }
+
+      .news-card p {
+          margin-bottom: 0;
+      }
+  </style>
   </head>
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -40,10 +69,58 @@
             <a class="nav-link" href="./irregVerbs.html">Irregular verbs</a>
             <a class="nav-link" href="./adverbs.html">Adverbs</a>
             <a class="nav-link" href="./phrasalVerbs.html">Phrasal verbs</a>
+            <a class="nav-link" href="./vocabulary.html">Vocabulary</a>
+            <a class="nav-link" href="./expression.html">Expressions</a>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  <body></body>
+  <body>
+    <h1>Latest News</h1>
+    <div id="newsContainer" class="news-container"></div>
+
+    <script>
+        async function getNews() {
+            try {
+                const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=fdf123f173be4ff48ce437f0a700c1fa');
+                const data = await response.json();
+
+                if (response.ok) {
+                    const articles = data.articles;
+                    const newsContainer = document.getElementById('newsContainer');
+
+                    // Parcourt les articles et les ajoute dans des cartes dans le conteneur des news
+                    articles.forEach(article => {
+                        const newsCard = document.createElement('div');
+                        newsCard.className = 'news-card';
+
+                        const title = document.createElement('h3');
+                        title.textContent = article.title;
+
+                        const description = document.createElement('p');
+                        description.textContent = article.description;
+
+                        const url = document.createElement('a');
+                        url.href = article.url;
+                        url.textContent = 'Read more';
+
+                        newsCard.appendChild(title);
+                        newsCard.appendChild(description);
+                        newsCard.appendChild(url);
+
+                        newsContainer.appendChild(newsCard);
+                    });
+                } else {
+                    console.error('Erreur de réponse de l\'API:', data.message);
+                }
+            } catch (error) {
+                console.error('Erreur lors de la récupération des données:', error);
+            }
+        }
+
+        getNews();
+    </script>
+</body>
+</html>
 </html>

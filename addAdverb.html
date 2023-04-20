@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>add an adverb</title>
+  </head>
+  <body>
+    <h1>Add an adverb</h1>
+    <form id="myForm" onsubmit="ajouterAdverb(event)">
+      <label for="adverb">Adverb :</label>
+      <input type="text" id="adverb" name="adverb" />
+      <br />
+      <label for="translation">Translation :</label>
+      <input type="text" id="translation" name="translation" />
+      <br />
+
+      <button type="submit">Submit</button>
+      <br />
+    </form>
+    <script>
+      function ajouterAdverb(event) {
+        event.preventDefault(); // Empêche le formulaire de se soumettre automatiquement
+
+        // Récupère les valeurs des champs de formulaire
+        var adverb = document.getElementById("adverb").value;
+        var translation = document.getElementById("translation").value;
+
+        // Crée un nouvel objet JSON avec les valeurs des champs de formulaire
+        var nouvelAdverb = {
+          adverb: adverb,
+          translation: translation,
+        };
+
+        // Lit le fichier JSON existant
+        fetch("adverbs.json")
+          .then((response) => response.json())
+          .then((donneesExistantes) => {
+            // Ajoute les nouvelles données à l'objet JSON existant
+            donneesExistantes.push(nouvelAdverb);
+            console.log(donneesExistantes);
+
+            // Écrit les données mises à jour dans le fichier JSON
+            const blob = new Blob([JSON.stringify(donneesExistantes)], {
+              type: "application/json",
+            });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "adverbs.json";
+            a.click();
+          })
+          .catch((error) => console.error(error));
+      }
+    </script>
+  </body>
+</html>
