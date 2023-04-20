@@ -77,50 +77,82 @@
     </nav>
   </header>
   <body>
-    <h1>Latest News</h1>
-    <div id="newsContainer" class="news-container"></div>
+    <h1>News de la BBC</h1>
+    <div id="news-container"></div>
 
-    <script>
-        async function getNews() {
-            try {
-                const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=fdf123f173be4ff48ce437f0a700c1fa');
-                const data = await response.json();
+    <!-- <script>
+      // Fait une requête à l'API de la BBC pour récupérer les nouvelles
+      fetch(
+        "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=6e3d5f6686c549eeeccdf13d5c009b15"
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          // Vérifie si la requête a réussi
+          if (data.status === "ok") {
+            // Parcourt les articles et les affiche dans le conteneur des nouvelles
+            const articles = data.articles;
+            const newsContainer = document.getElementById("news-container");
 
-                if (response.ok) {
-                    const articles = data.articles;
-                    const newsContainer = document.getElementById('newsContainer');
+            articles.forEach((article) => {
+              const articleElement = document.createElement("div");
+              articleElement.innerHTML = `
+                <h2>${article.title}</h2>
+                <p>${article.description}</p>
+                <img src="${article.urlToImage}" alt="${article.title}" />
+                <p><a href="${article.url}" target="_blank">Lire la suite</a></p>
+              `;
+              newsContainer.appendChild(articleElement);
+            });
+          } else {
+            // Affiche un message d'erreur si la requête a échoué
+            console.error("Erreur de récupération des nouvelles:", data.message);
+          }
+        })
+        .catch((error) => {
+          // Affiche un message d'erreur si une erreur s'est produite
+          console.error("Erreur de récupération des nouvelles:", error);
+        });
+    </script> -->
+   <script>
+    // URL du flux RSS de la CNN
+    var rssUrl = "http://rss.cnn.com/rss/edition.rss";
+    // Nombre maximum de nouvelles à afficher
+    var maxNews = 10;
 
-                    // Parcourt les articles et les ajoute dans des cartes dans le conteneur des news
-                    articles.forEach(article => {
-                        const newsCard = document.createElement('div');
-                        newsCard.className = 'news-card';
+    // Fonction pour récupérer les nouvelles du flux RSS et les afficher
+    function getNews() {
+      fetch(rssUrl)
+        .then(response => response.text())
+        .then(data => {
+          // Parser le XML du flux RSS en un objet document
+          var parser = new DOMParser();
+          var xmlDoc = parser.parseFromString(data, "application/xml");
 
-                        const title = document.createElement('h3');
-                        title.textContent = article.title;
+          // Récupérer les éléments <item> qui contiennent les nouvelles
+          var items = xmlDoc.getElementsByTagName("item");
 
-                        const description = document.createElement('p');
-                        description.textContent = article.description;
+          // Parcourir les nouvelles et les afficher dans la liste
+          for (var i = 0; i < Math.min(items.length, maxNews); i++) {
+            var item = items[i];
+            var title = item.getElementsByTagName("title")[0].textContent;
+            var link = item.getElementsByTagName("link")[0].textContent;
 
-                        const url = document.createElement('a');
-                        url.href = article.url;
-                        url.textContent = 'Read more';
+            var listItem = document.createElement("li");
+            var linkElement = document.createElement("a");
+            linkElement.href = link;
+            linkElement.textContent = title;
+            listItem.appendChild(linkElement);
+            document.getElementById("newsList").appendChild(listItem);
+          }
+        })
+        .catch(error => {
+          console.error("Erreur de récupération des nouvelles:", error);
+        });
+    }
 
-                        newsCard.appendChild(title);
-                        newsCard.appendChild(description);
-                        newsCard.appendChild(url);
-
-                        newsContainer.appendChild(newsCard);
-                    });
-                } else {
-                    console.error('Erreur de réponse de l\'API:', data.message);
-                }
-            } catch (error) {
-                console.error('Erreur lors de la récupération des données:', error);
-            }
-        }
-
-        getNews();
-    </script>
-</body>
+    // Appeler la fonction pour récupérer et afficher les nouvelles
+    getNews();
+  </script>
+  </body>
 </html>
 </html>
