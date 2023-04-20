@@ -113,46 +113,43 @@
           console.error("Erreur de récupération des nouvelles:", error);
         });
     </script> -->
-   <script>
-    // URL du flux RSS de la CNN
-    var rssUrl = "http://rss.cnn.com/rss/edition.rss";
-    // Nombre maximum de nouvelles à afficher
-    var maxNews = 10;
-
-    // Fonction pour récupérer les nouvelles du flux RSS et les afficher
-    function getNews() {
-      fetch(rssUrl)
-        .then(response => response.text())
-        .then(data => {
-          // Parser le XML du flux RSS en un objet document
-          var parser = new DOMParser();
-          var xmlDoc = parser.parseFromString(data, "application/xml");
-
-          // Récupérer les éléments <item> qui contiennent les nouvelles
-          var items = xmlDoc.getElementsByTagName("item");
-
-          // Parcourir les nouvelles et les afficher dans la liste
-          for (var i = 0; i < Math.min(items.length, maxNews); i++) {
-            var item = items[i];
-            var title = item.getElementsByTagName("title")[0].textContent;
-            var link = item.getElementsByTagName("link")[0].textContent;
-
-            var listItem = document.createElement("li");
-            var linkElement = document.createElement("a");
-            linkElement.href = link;
-            linkElement.textContent = title;
-            listItem.appendChild(linkElement);
-            document.getElementById("newsList").appendChild(listItem);
-          }
-        })
-        .catch(error => {
-          console.error("Erreur de récupération des nouvelles:", error);
-        });
-    }
-
-    // Appeler la fonction pour récupérer et afficher les nouvelles
-    getNews();
-  </script>
+    <script>
+      // URL du service rss2json.com
+      var rss2jsonUrl = "https://api.rss2json.com/v1/api.json?rss_url=http://rss.cnn.com/rss/edition.rss";
+      // Nombre maximum de nouvelles à afficher
+      var maxNews = 10;
+  
+      // Fonction pour récupérer les nouvelles du service rss2json.com et les afficher
+      function getNews() {
+        fetch(rss2jsonUrl)
+          .then(response => response.json())
+          .then(data => {
+            // Récupérer les nouvelles du flux RSS converti en JSON
+            var items = data.items;
+  
+            // Parcourir les nouvelles et les afficher dans la liste
+            for (var i = 0; i < Math.min(items.length, maxNews); i++) {
+              var item = items[i];
+              var title = item.title;
+              var link = item.link;
+  
+              var listItem = document.createElement("li");
+              var linkElement = document.createElement("a");
+              linkElement.href = link;
+              linkElement.textContent = title;
+              listItem.appendChild(linkElement);
+              document.getElementById("newsList").appendChild(listItem);
+            }
+          })
+          .catch(error => {
+            console.error("Erreur de récupération des nouvelles:", error);
+          });
+      }
+  
+      // Appeler la fonction pour récupérer et afficher les nouvelles
+      getNews();
+    </script>
+  
   </body>
 </html>
 </html>
