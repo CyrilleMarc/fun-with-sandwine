@@ -47,6 +47,7 @@
       fetch("irregVerbs.json")
         .then((response) => response.json())
         .then((data) => {
+          console.log(data);
           // Parcourir la liste des verbes et créer les lignes du tableau
           data.verbs.forEach((verb) => {
             const row = document.createElement("tr");

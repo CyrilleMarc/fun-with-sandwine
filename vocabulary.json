@@ -1,6 +1,506 @@
-[
+{
+  "meeting": [
     {
-        "name": "profitable",
-        "translation": "rentable, profitable"
+      "expression": "Nice to meet you",
+      "translation": "Enchanté(e) de vous rencontrer"
+    },
+    {
+      "expression": "Allow me to introduce myself",
+      "translation": "Permettez-moi de me présenter"
+    },
+    {
+      "expression": "May I introduce",
+      "translation": "Puis-je présenter"
+    },
+    {
+      "expression": "I would like to introduce",
+      "translation": "J'aimerais vous présenter"
+    },
+    {
+      "expression": "This is [name]",
+      "translation": "Voici [nom]"
+    },
+    {
+      "expression": "Let me give you some background about myself",
+      "translation": "Permettez-moi de vous donner un peu de contexte sur moi-même"
+    },
+    {
+      "expression": "I am responsible for",
+      "translation": "Je suis responsable de"
+    },
+    {
+      "expression": "I have [number] years of experience in",
+      "translation": "J'ai [nombre] années d'expérience dans"
+    },
+    {
+      "expression": "I specialize in",
+      "translation": "Je suis spécialisé(e) dans"
+    },
+    {
+      "expression": "Moving on to the next topic",
+      "translation": "Passons au sujet suivant"
+    },
+    {
+      "expression": "As you can see on the screen",
+      "translation": "Comme vous pouvez le voir à l'écran"
+    },
+    {
+      "expression": "As I mentioned earlier",
+      "translation": "Comme je l'ai mentionné précédemment"
+    },
+    {
+      "expression": "In conclusion",
+      "translation": "En conclusion"
+    },
+    {
+      "expression": "To sum up",
+      "translation": "Pour résumer"
+    },
+    {
+      "expression": "Do you have any questions?",
+      "translation": "Avez-vous des questions ?"
+    },
+    {
+      "expression": "I would be happy to answer any questions",
+      "translation": "Je serais ravi(e) de répondre à vos questions"
+    },
+    {
+      "expression": "Thank you for your attention",
+      "translation": "Merci de votre attention"
+    },
+    {
+      "expression": "It was a pleasure meeting you",
+      "translation": "Ce fut un plaisir de vous rencontrer"
+    },
+    {
+      "expression": "I hope we can stay in touch",
+      "translation": "J'espère que nous pourrons rester en contact"
+    },
+    {
+      "expression": "Goodbye",
+      "translation": "Au revoir"
+    },
+    {
+      "expression": "See you later",
+      "translation": "À plus tard"
+    },
+    {
+      "expression": "Take care",
+      "translation": "Prenez soin de vous"
+    },
+    {
+      "expression": "Have a nice day",
+      "translation": "Bonne journée"
+    },
+    {
+      "expression": "Please have a seat",
+      "translation": "Veuillez vous asseoir, s'il vous plaît"
+    },
+    {
+      "expression": "Let's get started",
+      "translation": "Commençons"
+    },
+    {
+      "expression": "First of all",
+      "translation": "Tout dabord"
+    },
+    {
+      "expression": "Next",
+      "translation": "Ensuite"
+    },
+    {
+      "expression": "Moving forward",
+      "translation": "En avançant"
+    },
+    {
+      "expression": "Furthermore",
+      "translation": "De plus"
+    },
+    {
+      "expression": "Moreover",
+      "translation": "En outre"
+    },
+    {
+      "expression": "Additionally",
+      "translation": "De surcroît"
+    },
+    {
+      "expression": "On the other hand",
+      "translation": "D'autre part"
+    },
+    {
+      "expression": "However",
+      "translation": "Cependant"
+    },
+    {
+      "expression": "In contrast to",
+      "translation": "En contraste avec"
+    },
+    {
+      "expression": "As a matter of fact",
+      "translation": "En fait"
+    },
+    {
+      "expression": "In my opinion",
+      "translation": "À mon avis"
+    },
+    {
+      "expression": "I believe that",
+      "translation": "Je crois que"
+    },
+    {
+      "expression": "From my experience",
+      "translation": "D'après mon expérience"
+    },
+    {
+      "expression": "In conclusion",
+      "translation": "En conclusion"
+    },
+    {
+      "expression": "To wrap up",
+      "translation": "Pour conclure"
+    },
+    {
+      "expression": "Let's move on to the next point",
+      "translation": "Passons au point suivant"
+    },
+    {
+      "expression": "I'd like to touch on",
+      "translation": "J'aimerais aborder"
+    },
+    {
+      "expression": "Let's dive into",
+      "translation": "Plongeons dans"
+    },
+    {
+      "expression": "If I may interject",
+      "translation": "Si je peux me permettre d'interrompre"
+    },
+    {
+      "expression": "I'd like to expand on that",
+      "translation": "J'aimerais développer cela"
+    },
+    {
+      "expression": "Could you clarify",
+      "translation": "Pourriez-vous clarifier"
+    },
+    {
+      "expression": "Would you like me to elaborate",
+      "translation": "Voulez-vous que je m'étende davantage"
+    },
+    {
+      "expression": "Let me rephrase that",
+      "translation": "Permettez-moi de reformuler"
+    },
+    {
+      "expression": "Could you please repeat that",
+      "translation": "Pouvez-vous répéter s'il vous plaît"
+    },
+    {
+      "expression": "I didn't catch that",
+      "translation": "Je n'ai pas saisi cela"
+    },
+    {
+      "expression": "I'm sorry, I didn't understand",
+      "translation": "Je suis désolé(e), je n'ai pas compris"
+    },
+    {
+      "expression": "Can you explain further",
+      "translation": "Pouvez-vous expliquer davantage"
+    },
+    {
+      "expression": "Let's go back to the previous point",
+      "translation": "Revenons au point précédent"
+    },
+    {
+      "expression": "Asking for clarification",
+      "translation": "Demander une clarification"
+    },
+    {
+      "expression": "Providing examples",
+      "translation": "Donner des exemples"
+    },
+    {
+      "expression": "Call a meeting",
+      "translation": "Convoquer une réunion"
+    },
+    {
+      "expression": "Set an agenda",
+      "translation": "Établir un ordre du jour"
+    },
+    {
+      "expression": "Schedule a meeting",
+      "translation": "Planifier une réunion"
+    },
+    {
+      "expression": "Send out invitations",
+      "translation": "Envoyer les invitations"
+    },
+    {
+      "expression": "Confirm attendance",
+      "translation": "Confirmer sa présence"
+    },
+    {
+      "expression": "Hold a meeting",
+      "translation": "Tenir une réunion"
+    },
+    {
+      "expression": "Start a meeting",
+      "translation": "Démarrer une réunion"
+    },
+    {
+      "expression": "Chair a meeting",
+      "translation": "Animer une réunion"
+    },
+    {
+      "expression": "Open the floor",
+      "translation": "Donner la parole"
+    },
+    {
+      "expression": "Make introductions",
+      "translation": "Faire les présentations"
+    },
+    {
+      "expression": "Give a presentation",
+      "translation": "Faire une présentation"
+    },
+    {
+      "expression": "Facilitate discussion",
+      "translation": "Faciliter la discussion"
+    },
+    {
+      "expression": "Encourage participation",
+      "translation": "Encourager la participation"
+    },
+    {
+      "expression": "Manage time",
+      "translation": "Gérer le temps"
+    },
+    {
+      "expression": "Keep on track",
+      "translation": "Rester sur la bonne voie"
+    },
+    {
+      "expression": "Wrap up the meeting",
+      "translation": "Conclure la réunion"
+    },
+    {
+      "expression": "Follow up on action items",
+      "translation": "Suivre les actions à entreprendre"
+    },
+    {
+      "expression": "Take minutes",
+      "translation": "Prendre des notes"
+    },
+    {
+      "expression": "Distribute meeting minutes",
+      "translation": "Distribuer le compte rendu de réunion"
     }
-]
+  ],
+  "presentation": [
+    {
+      "expression": "My name is [name].",
+      "meaning": "Je m'appelle [nom]."
+    },
+    {
+      "expression": "I am [age] years old.",
+      "meaning": "J'ai [âge] ans."
+    },
+    {
+      "expression": "I come from [country/region].",
+      "meaning": "Je viens de [pays/région]."
+    },
+    {
+      "expression": "I am currently studying [major/subject] at [university/school].",
+      "meaning": "Je suis actuellement en train d'étudier [majeure/matière] à [université/école]."
+    },
+    {
+      "expression": "I am currently residing in [city/country].",
+      "meaning": "Je réside actuellement à [ville/pays]."
+    },
+    {
+      "expression": "I am happily married/engaged/in a relationship.",
+      "meaning": "Je suis heureusement marié(e)/fiancé(e)/en couple."
+    },
+    {
+      "expression": "I am a proud parent of [number] children.",
+      "meaning": "Je suis un(e) fier(ère) parent de [nombre] enfants."
+    },
+    {
+      "expression": "I enjoy spending quality time with my family and loved ones.",
+      "meaning": "J'aime passer du temps de qualité avec ma famille et mes proches."
+    },
+    {
+      "expression": "I am actively involved in my community and participate in local events.",
+      "meaning": "Je suis activement impliqué(e) dans ma communauté et je participe à des événements locaux."
+    },
+    {
+      "expression": "I am an avid [hobby] enthusiast and enjoy pursuing it in my free time.",
+      "meaning": "Je suis un(e) passionné(e) de [loisir/hobby] et j'aime le pratiquer pendant mon temps libre."
+    },
+    {
+      "expression": "I have a strong support system in my personal life that helps me stay balanced.",
+      "meaning": "J'ai un solide réseau de soutien dans ma vie personnelle qui m'aide à maintenir un équilibre."
+    },
+    {
+      "expression": "I believe in maintaining a healthy work-life balance for overall well-being.",
+      "meaning": "Je crois en le maintien d'un équilibre sain entre le travail et la vie personnelle pour le bien-être général."
+    },
+    {
+      "expression": "I am passionate about traveling and exploring new cultures.",
+      "meaning": "Je suis passionné(e) par les voyages et l'exploration de nouvelles cultures."
+    },
+    {
+      "expression": "I value personal growth and strive to continually improve myself.",
+      "meaning": "Je valorise la croissance personnelle et m'efforce de m'améliorer continuellement."
+    },
+    {
+      "expression": "residing",
+      "meaning": "habiter/résider"
+    },
+    {
+      "expression": "married",
+      "meaning": "marié(e)"
+    },
+    {
+      "expression": "engaged",
+      "meaning": "fiancé(e)"
+    },
+    {
+      "expression": "relationship",
+      "meaning": "relation (amoureuse)"
+    },
+    {
+      "expression": "community",
+      "meaning": "communauté"
+    },
+    {
+      "expression": "hobby",
+      "meaning": "loisir/hobby"
+    },
+    {
+      "expression": "support system",
+      "meaning": "réseau de soutien"
+    },
+    {
+      "expression": "work-life balance",
+      "meaning": "équilibre entre le travail et la vie personnelle"
+    },
+    {
+      "expression": "traveling",
+      "meaning": "voyager"
+    },
+    {
+      "expression": "cultures",
+      "meaning": "cultures"
+    },
+    {
+      "expression": "I have [number] years of experience in [industry/field].",
+      "meaning": "J'ai [nombre] années d'expérience dans [secteur/domaine]."
+    },
+    {
+      "expression": "I am skilled in [skill/competency].",
+      "meaning": "Je suis compétent(e) en [compétence]."
+    },
+    {
+      "expression": "I am fluent in [language].",
+      "meaning": "Je parle couramment [langue]."
+    },
+    {
+      "expression": "I am interested in [interest/hobby].",
+      "meaning": "Je m'intéresse à [centre d'intérêt/hobby]."
+    },
+    {
+      "expression": "I am a team player and can work independently as well.",
+      "meaning": "Je suis un(e) joueur/joueuse d'équipe et je peux également travailler de manière indépendante."
+    },
+    {
+      "expression": "I am goal-oriented and always strive for excellence.",
+      "meaning": "Je suis orienté(e) vers les objectifs et je vise toujours l'excellence."
+    },
+    {
+      "expression": "In my free time, I enjoy [activity].",
+      "meaning": "Pendant mon temps libre, j'aime [activité]."
+    },
+    {
+      "expression": "I have a strong work ethic and am dedicated to achieving success.",
+      "meaning": "J'ai une forte éthique de travail et je suis déterminé(e) à atteindre le succès."
+    },
+    {
+      "expression": "I have a keen eye for detail and am highly organized.",
+      "meaning": "J'ai un sens aigu du détail et je suis très organisé(e)."
+    },
+    {
+      "expression": "I have excellent communication skills, both written and verbal.",
+      "meaning": "J'ai d'excellentes compétences en communication, à la fois écrites et verbales."
+    },
+    {
+      "expression": "I am proficient in using [software/tool].",
+      "meaning": "Je suis compétent(e) dans l'utilisation de [logiciel/outil]."
+    },
+    {
+      "expression": "I am a quick learner and am able to adapt to new situations.",
+      "meaning": "Je suis un(e) apprenant(e) rapide et je suis capable de m'adapter à de nouvelles situations."
+    },
+    {
+      "expression": "I have a proven track record of success in [industry/field].",
+      "meaning": "J'ai un historique éprouvé de succès dans [secteur/domaine]."
+    },
+    {
+      "expression": "I am a self-motivated individual and am always looking for ways to improve.",
+      "meaning": "Je suis une personne motivée et je suis toujours à la recherche de moyens pour m'améliorer."
+    },
+    {
+      "expression": "I am confident in my abilities and am not afraid to take on challenges.",
+      "meaning": "Je suis confiant(e) dans mes compétences et je n'ai pas peur de relever les défis."
+    },
+    {
+      "expression": "I have a positive attitude and am able to work well under pressure.",
+      "meaning": "J'ai une attitude positive et je suis capable de bien travailler sous pression."
+    },
+    {
+      "expression": "I am a good listener and am able to communicate effectively with others.",
+      "meaning": "Je suis un(e) bon(ne) auditeur(trice) et je suis capable de communiquer efficacement avec les autres."
+    },
+    {
+      "expression": "I am detail-oriented and have strong analytical skills.",
+      "meaning": "Je suis axé(e) sur les détails et j'ai de fortes compétences analytiques."
+    },
+    {
+      "expression": "I am able to work independently and as part of a team.",
+      "meaning": "Je suis capable de travailler de manière indépendante et en équipe."
+    },
+    {
+      "expression": "I am proactive and take initiative in finding solutions.",
+      "meaning": "Je suis proactif/proactive et je prends l'initiative pour trouver des solutions."
+    },
+    {
+      "expression": "I have a strong sense of professionalism and ethics.",
+      "meaning": "J'ai un fort sens du professionnalisme et de l'éthique."
+    },
+    {
+      "expression": "I am open to feedback and am constantly looking for ways to improve.",
+      "meaning": "Je suis ouvert(e) aux feedbacks et je cherche constamment des moyens de m'améliorer."
+    },
+    {
+      "expression": "I am reliable and always meet deadlines.",
+      "meaning": "Je suis fiable et je respecte toujours les délais."
+    },
+    {
+      "expression": "I have a good sense of humor and am able to lighten the mood in tense situations.",
+      "meaning": "J'ai un bon sens de l'humour et je suis capable d'alléger l'atmosphère dans les situations tendues."
+    },
+    {
+      "expression": "I am adaptable and able to thrive in a fast-paced environment.",
+      "meaning": "Je suis adaptable et je suis capable de prospérer dans un environnement rapide."
+    },
+    {
+      "expression": "I am committed to continuous learning and professional development.",
+      "meaning": "Je suis engagé(e) dans un apprentissage continu et un développement professionnel."
+    },
+    {
+      "expression": "I am results-oriented and focused on achieving goals.",
+      "meaning": "Je suis axé(e) sur les résultats et concentré(e) sur l'atteinte des objectifs."
+    }
+  ]
+}

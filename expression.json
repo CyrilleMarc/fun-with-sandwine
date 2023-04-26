@@ -1,34 +1,421 @@
 {
-  "expression": [
+  "expressions": [
     {
-      "expression": "if that suits",
-      "translation": "si ça convient"
+      "expression": "If that suits",
+      "translation": "Si ça convient"
     },
     {
-      "expression": "Is it convenient for you ?",
+      "expression": "Is it convenient for you?",
       "translation": "Est-ce que ça te convient ?"
     },
     {
-      "expression": "Let's pencil in",
-      "translation": "On note ça"
+      "expression": "Let's pencil it in",
+      "translation": "On le note"
     },
     {
-      "expression": "as soon as I know",
-      "translation": "dès que je sais"
+      "expression": "As soon as I know",
+      "translation": "Dès que je sais"
     },
     {
-      "expression": "It's sounds good to me",
-      "translation": "ça me va bien"
+      "expression": "It sounds good to me",
+      "translation": "Ça me va bien"
     },
     {
-      "expression": "to go to further with this",
-      "translation": "pour aller plus loin avec ça"
+      "expression": "Getting scarce",
+      "translation": "Ça devient rare"
     },
     {
-      "expression": "getting scarce",
-      "translation": "ça devient rare"
+      "expression": "To go further with this",
+      "translation": "Pour aller plus loin avec ça"
     },
-    
-     
-  ]
+    {
+      "expression": "Can you please clarify?",
+      "translation": "Pouvez-vous préciser s'il vous plaît ?"
+    },
+    {
+      "expression": "Let's keep in touch",
+      "translation": "Restons en contact"
+    },
+    {
+      "expression": "It's worth a shot",
+      "translation": "Ça vaut le coup d'essayer"
+    },
+    {
+      "expression": "Just a heads-up",
+      "translation": "Juste un avertissement"
+    },
+    {
+      "expression": "It slipped my mind",
+      "translation": "Ça m'est sorti de l'esprit"
+    },
+    {
+      "expression": "I'm on the same page",
+      "translation": "Je suis sur la même longueur d'onde"
+    },
+    {
+      "expression": "The ball is in your court",
+      "translation": "La balle est dans ton camp"
+    },
+    {
+      "expression": "Let's play it by ear",
+      "translation": "Improvisons au fur et à mesure"
+    },
+    {
+      "expression": "It's a piece of cake",
+      "translation": "C'est du gâteau"
+    },
+    {
+      "expression": "The best of both worlds",
+      "translation": "Le meilleur des deux mondes"
+    },
+    {
+      "expression": "We'll cross that bridge when we come to it",
+      "translation": "On verra ça quand on y arrivera"
+    },
+    {
+      "expression": "Bite the bullet",
+      "translation": "Prendre son courage à deux mains"
+    },
+    {
+      "expression": "Break the ice",
+      "translation": "Briser la glace"
+    },
+    {
+      "expression": "Get the ball rolling",
+      "translation": "Mettre la machine en marche"
+    },
+    {
+      "expression": "A bird in the hand is worth two in the bush",
+      "translation": "Un tiens vaut mieux que deux tu l'auras"
+    },
+    {
+      "expression": "Beat around the bush",
+      "translation": "Tourner autour du pot"
+    },
+    {
+      "expression": "Bite off more than you can chew",
+      "translation": "Vouloir trop en faire"
+    },
+    {
+      "expression": "You're a snake in the grass",
+      "translation": "Tu es un serpent dans l'herbe"
+    },
+
+    {
+      "expression": "Cry over spilled milk",
+      "translation": "Pleurer sur du lait renversé"
+      },
+      {
+      "expression": "Every cloud has a silver lining",
+      "translation": "Après la pluie, le beau temps"
+      },
+      {
+      "expression": "Face the music",
+      "translation": "Assumer les conséquences"
+      },
+      {
+      "expression": "Give someone the benefit of the doubt",
+      "translation": "Donner le bénéfice du doute à quelqu'un"
+      },
+      {
+      "expression": "Hit the nail on the head",
+      "translation": "Mettre le doigt sur le bobo"
+      },
+      {
+      "expression": "In the same boat",
+      "translation": "Être dans le même bateau"
+      },
+      {
+      "expression": "Jump on the bandwagon",
+      "translation": "Suivre le mouvement"
+      },
+      {
+      "expression": "Kick the bucket",
+      "translation": "Passer l'arme à gauche"
+      },
+      {
+      "expression": "Let the cat out of the bag",
+      "translation": "Vendre la mèche"
+      },
+      {
+      "expression": "Miss the boat",
+      "translation": "Manquer le coche"
+      },
+      {
+      "expression": "Off the hook",
+      "translation": "S'en sortir indemne"
+      },
+      {
+      "expression": "Put all your eggs in one basket",
+      "translation": "Mettre tous ses œufs dans le même panier"
+      },
+      {
+      "expression": "Ride the wave",
+      "translation": "Surfer sur la vague"
+      },
+      {
+      "expression": "Sink or swim",
+      "translation": "Nager ou couler"
+      },
+      {
+      "expression": "Take it with a grain of salt",
+      "translation": "Prendre avec des pincettes"
+      },
+      {
+      "expression": "The ball's in your court",
+      "translation": "La balle est dans ton camp"
+      },
+      {
+      "expression": "Throw in the towel",
+      "translation": "Jeter l'éponge"
+      },
+      {
+      "expression": "Under the weather",
+      "translation": "Pas dans son assiette"
+      },
+      {
+      "expression": "Up in the air",
+      "translation": "En suspens"
+      },
+      {
+      "expression": "We're on the same page",
+      "translation": "Nous sommes sur la même longueur d'onde"
+      },
+      {
+      "expression": "You hit the jackpot",
+      "translation": "Tu as décroché le jackpot"
+      },
+      {
+      "expression": "You're in hot water",
+      "translation": "Tu es dans de beaux draps"
+      },
+      {
+      "expression": "You're on thin ice",
+      "translation": "Tu es sur la corde raide"
+      },
+      {
+      "expression": "You're pulling my leg",
+      "translation": "Tu me fais marcher"
+      },
+      {
+      "expression": "You're sitting on the fence",
+      "translation": "Tu es indécis"
+      },
+      {
+      "expression": "You're skating on thin ice",
+      "translation": "Tu joues avec le feu"
+      },
+      {
+      "expression": "Your guess is as good as mine",
+      "translation": "Ton avis vaut autant que le mien"
+    },
+    {
+    "expression": "Bite the bullet",
+    "translation": "Prendre son mal en patience"
+    },
+    {
+    "expression": "Blessing in disguise",
+    "translation": "Un mal pour un bien"
+    },
+    {
+    "expression": "Break the ice",
+    "translation": "Briser la glace"
+    },
+    {
+    "expression": "Burning the midnight oil",
+    "translation": "Travailler tard dans la nuit"
+    },
+    {
+    "expression": "Caught between a rock and a hard place",
+    "translation": "Être entre le marteau et l'enclume"
+    },
+    {
+    "expression": "Cry over spilled milk",
+    "translation": "Pleurer sur du lait renversé"
+    },
+    {
+    "expression": "Don't count your chickens before they hatch",
+    "translation": "Ne pas vendre la peau de l'ours avant de l'avoir tué"
+    },
+    {
+    "expression": "Don't put all your eggs in one basket",
+    "translation": "Ne pas mettre tous ses œufs dans le même panier"
+    },
+    {
+    "expression": "Drop the ball",
+    "translation": "Laisser tomber le ballon"
+    },
+    {
+    "expression": "Fish out of water",
+    "translation": "Comme un poisson hors de l'eau"
+    },
+    {
+    "expression": "Get a taste of your own medicine",
+    "translation": "Goûter à sa propre médecine"
+    },
+    {
+    "expression": "Get cold feet",
+    "translation": "Avoir peur, reculer au dernier moment"
+    },
+    {
+    "expression": "Go the extra mile",
+    "translation": "Faire un effort supplémentaire"
+    },
+    {
+    "expression": "Grasping at straws",
+    "translation": "Agripper des pailles"
+    },
+    {
+    "expression": "Have your cake and eat it too",
+    "translation": "Vouloir le beurre et l'argent du beurre"
+    },
+    {
+    "expression": "Hitting below the belt",
+    "translation": "Frapper en dessous de la ceinture"
+    },
+    {
+    "expression": "In the heat of the moment",
+    "translation": "Dans le feu de l'action"
+    },
+    {
+    "expression": "Jump off the bandwagon",
+    "translation": "Descendre du train en marche"
+    },
+    {
+    "expression": "Kick someone when they're down",
+    "translation": "Frapper quelqu'un à terre"
+    },
+    {
+    "expression": "Let sleeping dogs lie",
+    "translation": "Ne pas réveiller les vieux démons"
+    },
+    {
+    "expression": "Make a long story short",
+    "translation": "En bref"
+    },
+    {
+    "expression": "Nip it in the bud",
+    "translation": "Couper court à quelque chose"
+    },
+    {
+    "expression": "On the fence",
+    "translation": "Indécis"
+    },
+    {
+    "expression": "On thin ice",
+    "translation": "Sur la corde raide"
+    },
+    {
+    "expression": "Play it by ear",
+    "translation": "Jouer au feeling"
+    },
+    {
+    "expression": "Pull someone's leg",
+    "translation": "Faire marcher quelqu'un"
+    },
+    {
+    "expression": "Put all your cards on the table",
+"translation": "Mettre toutes ses cartes sur table"
+},
+{
+"expression": "Put the cart before the horse",
+"translation": "Mettre la charrue avant les bœufs"
+},
+{
+"expression": "Raining cats and dogs",
+"translation": "Il pleut des cordes"
+},
+{
+"expression": "Read between the lines",
+"translation": "Lire entre les lignes"
+},
+{
+"expression": "Rome wasn't built in a day",
+"translation": "Rome ne s'est pas construite en un jour"
+},
+{
+"expression": "Rub salt in the wound",
+"translation": "Remuer le couteau dans la plaie"
+},
+{
+"expression": "Saved by the bell",
+"translation": "Être sauvé in extremis"
+},
+{
+"expression": "See the light at the end of the tunnel",
+"translation": "Voir la lumière au bout du tunnel"
+},
+{
+"expression": "Shoot yourself in the foot",
+"translation": "Se tirer une balle dans le pied"
+},
+{
+"expression": "Sit on the fence",
+"translation": "Rester indécis"
+},
+{
+"expression": "Speak of the devil",
+"translation": "Parler du loup"
+},
+{
+"expression": "Spill the beans",
+"translation": "Vendre la mèche"
+},
+{
+"expression": "Steal someone's thunder",
+"translation": "Volé la vedette à quelqu'un"
+},
+{
+"expression": "Take a rain check",
+"translation": "Remettre à plus tard"
+},
+{
+"expression": "The ball is in your court",
+"translation": "La balle est dans ton camp"
+},
+{
+"expression": "The devil is in the details",
+"translation": "Le diable se cache dans les détails"
+},
+{
+"expression": "The elephant in the room",
+"translation": "L'éléphant dans la pièce"
+},
+{
+"expression": "The icing on the cake",
+"translation": "La cerise sur le gâteau"
+},
+{
+"expression": "The whole nine yards",
+"translation": "Tout y est"
+},
+{
+"expression": "Throw in the towel",
+"translation": "Jeter l'éponge"
+},
+{
+"expression": "Turn a blind eye",
+"translation": "Fermer les yeux"
+},
+{
+"expression": "Under the weather",
+"translation": "Pas dans son assiette"
+},
+{
+"expression": "Water under the bridge",
+"translation": "De l'eau passée sous les ponts"
+},
+{
+"expression": "When in Rome, do as the Romans do",
+"translation": "Quand on est à Rome, il faut faire comme les Romains"
+},
+{
+"expression": "Whole new ballgame",
+"translation": "Une tout autre histoire"
+},
+{
+"expression": "You can't have your cake and eat it too",
+"translation": "On ne peut pas avoir le beurre et l'argent du beurre"
+}
+]
 }

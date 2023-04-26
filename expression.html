@@ -29,6 +29,32 @@
   </header>
   <body>
     <h1>Expressions</h1>
-    <p>Work in progress</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Expression</th>
+          <th>Translation</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    </div>
+    <script type="text/javascript">
+      fetch('/expression.json')
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          const tbody = document.querySelector("tbody");
+          for (const { expression, translation } of data.expressions) { 
+            const row = document.createElement("tr");
+            row.innerHTML = `
+              <td>${expression}</td>
+              <td>${translation}</td>
+            `;
+            tbody.appendChild(row);
+          }
+        });
+    </script>
   </body>
 </html>

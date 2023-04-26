@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting</title>
+    <style>
+      .presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .presentation img {
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        font-family: "Climate Crisis", cursive;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 10px 0px;
+        font-family: "Climate Crisis", cursive;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 20px;
+        width: 90%;
+        margin: 50px auto;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+      }
+
+      th {
+        background-color: #ccc;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+
+      /* Small devices (portrait phones) */
+      @media only screen and (max-width: 480px) {
+        table {
+          width: 100%;
+          height: 100vh;
+        }
+
+        th,
+        td {
+          display: block;
+        }
+
+        th {
+          text-align: center;
+          background-color: #ccc;
+        }
+
+        td {
+          border: none;
+          position: relative;
+          padding-left: 50%;
+        }
+
+        td:before {
+          position: absolute;
+          left: 6px;
+          content: attr(data-label);
+          text-align: left;
+          font-weight: bold;
+        }
+
+        td:nth-of-type(1):before {
+          content: "Modal";
+        }
+        td:nth-of-type(2):before {
+          content: "Definition";
+        }
+        td:nth-of-type(3):before {
+          content: "Examples";
+        }
+        td:nth-of-type(4):before {
+          content: "Probability";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>meeting</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Expressions</th>
+          <th>Translation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <script type="text/javascript">
+          fetch("vocabulary.json")
+            .then((response) => response.json())
+            .then((data) => {
+              for (const [
+                presentation,
+                { expression, meaning },
+              ] of Object.entries(data.presentation)) {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+              <td>${expression}</td>
+              <td>${meaning}</td>
+
+            `;
+                document.querySelector("tbody").appendChild(row);
+              }
+            });
+        </script>
+      </tbody>
+    </table>
+  </body>
+</html>
