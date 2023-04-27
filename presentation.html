@@ -1,114 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meeting</title>
+    <title>Modal Verbs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oswald:wght@200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <title>Introduce yourself</title>
     <style>
-      .presentation {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+        h1 {
+  text-align: center;
+  margin: 10px 0px;
+  font-family: "Climate Crisis", cursive;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
 
-      .presentation img {
-        width: 300px;
-        height: auto;
-        border-radius: 10px;
-      }
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
 
-      .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 10px;
-        font-family: "Climate Crisis", cursive;
-      }
+th {
+  background-color: #ccc;
+}
 
-      h1 {
-        text-align: center;
-        margin: 10px 0px;
-        font-family: "Climate Crisis", cursive;
-      }
-      body {
-        font-family: Arial, sans-serif;
-      }
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-      table {
-        border-collapse: collapse;
-        margin: 20px;
-        width: 90%;
-        margin: 50px auto;
-      }
+tr:hover {
+  background-color: #ddd;
+}
 
-      th,
-      td {
-        padding: 10px;
-        border: 1px solid black;
-      }
-
-      th {
-        background-color: #ccc;
-      }
-
-      tr:nth-child(even) {
-        background-color: #f2f2f2;
-      }
-
-      tr:hover {
-        background-color: #ddd;
-      }
-
-      /* Small devices (portrait phones) */
-      @media only screen and (max-width: 480px) {
-        table {
-          width: 100%;
-          height: 100vh;
-        }
-
-        th,
-        td {
-          display: block;
-        }
-
-        th {
-          text-align: center;
-          background-color: #ccc;
-        }
-
-        td {
-          border: none;
-          position: relative;
-          padding-left: 50%;
-        }
-
-        td:before {
-          position: absolute;
-          left: 6px;
-          content: attr(data-label);
-          text-align: left;
-          font-weight: bold;
-        }
-
-        td:nth-of-type(1):before {
-          content: "Modal";
-        }
-        td:nth-of-type(2):before {
-          content: "Definition";
-        }
-        td:nth-of-type(3):before {
-          content: "Examples";
-        }
-        td:nth-of-type(4):before {
-          content: "Probability";
-        }
-      }
     </style>
   </head>
   <body>
-    <h1>meeting</h1>
+    <h1>Introduce myself</h1>
     <table class="table">
       <thead>
         <tr>

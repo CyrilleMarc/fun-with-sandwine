@@ -502,5 +502,11 @@
       "expression": "I am results-oriented and focused on achieving goals.",
       "meaning": "Je suis axé(e) sur les résultats et concentré(e) sur l'atteinte des objectifs."
     }
-  ]
+  ],
+  "Clothes": [
+    {
+      "expression": "My name is [name].",
+      "meaning": "Je m'appelle [nom]."
+    }
+]
 }
